@@ -72,7 +72,7 @@ function App() {
                 setCameraDenied(true); 
                 setIsScraping((prev) => prev);
               }}
-              className="px-6 py-2 border border-white rounded"
+              className="px-6 py-2 bg-black border border-white rounded"
             >
               Skip
             </button>

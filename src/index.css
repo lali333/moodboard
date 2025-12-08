@@ -99,10 +99,10 @@ select:focus {
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
-    background-color: #ffffff;
+    background-color: #f0efea;
   }
   a:hover {
-    color: #fed8ff;
+    color: #feeaff;
   }
   button {
     background-color: #f9f9f9;
