@@ -1,0 +1,52 @@
+.star-loader-grid {
+  display: grid;
+  grid-template-columns: 80px 80px;
+  grid-template-rows: 70px 70px;
+  gap: -5px;
+  align-items: center;
+  justify-items: center;
+}
+
+.star-1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.star-2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.star-3 {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+.star {
+  width: 90px;
+  height: 90px;
+  opacity: 1;
+  transform-origin: center;
+  animation: starTurn 1.8s infinite ease-in-out;
+  filter: drop-shadow(0 0 12px rgba(255,255,255,0.25));
+}
+
+
+.star-1 { animation-delay: 0s; }
+.star-2 { animation-delay: 0.6s; }
+.star-3 { animation-delay: 1.2s; }
+
+@keyframes starTurn {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  30% {
+    transform: scale(1.25) rotate(120deg);
+  }
+  60% {
+    transform: scale(1) rotate(240deg);
+  }
+  100% {
+    transform: scale(1) rotate(360deg);
+  }
+}
