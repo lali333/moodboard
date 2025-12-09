@@ -1,7 +1,7 @@
 # Interactive 3D Moodboard 
 An immersive, gesture-controlled 3D moodboard that transforms Pinterest boards into a floating visual environment you can navigate with hand gestures. Images are scraped via a local Python service and rendered in a WebGL scene, while hand gestures are tracked in real time using MediaPipe for intuitive navigation. Built as an experimental tool for creative exploration, interaction design and generative inspiration.
 
-[![Watch the demo](assets/thumbnail.png)](assets/demo.mp4)
+https://github.com/user-attachments/assets/96f2dd05-bc79-4364-89a9-9e4e963437e4
 
 ## ᯓ★ Features
 - Paste a Pinterest board URL and scrape images via a local FastAPI service.
